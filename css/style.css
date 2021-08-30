@@ -1,0 +1,1002 @@
+:root {
+	--hf: "Anton", sans-serif;
+	--pf: "Nunito", sans-serif;
+	--cl1: #150035;
+	--cl2: #0b001b;
+	--hcl1: #fb36d8;
+	--tcl1: #944bff;
+	--gcl1: #9e4efc;
+	--gcl2: #570dc8;
+	--htc1: #fcb100;
+	--htc2: #e07e1e;
+	--htc3: #fdb125;
+	--bgc1: #a60084;
+	--bgc2: #ff39dc;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	vertical-align: middle;
+}
+ul {
+	list-style-type: none;
+}
+
+.mt-6 {
+	margin-top: 100px;
+}
+.sub-heading h3 {
+	font-family: var(--hf);
+	font-size: 48px;
+	font-weight: 400;
+	text-transform: capitalize;
+	text-align: center;
+	color: var(--htc1);
+	background: -webkit-linear-gradient(
+		top,
+		#fdb125 45%,
+		#e07e1e 48%,
+		#fcb100 85%
+	);
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	filter: drop-shadow(0 0 35px #4d0148);
+}
+.nav-fix {
+	width: 100%;
+	height: 100px;
+	background: var(--htc1);
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+	border-color: #080808;
+	position: fixed !important;
+	top: 0;
+	left: 0;
+	animation: smooth 1s linear;
+}
+@keyframes smooth {
+	0% {
+		top: -50px;
+	}
+	100% {
+		top: 0px;
+	}
+}
+.nav-fix .navbar-brand img {
+	width: 70%;
+	padding-bottom: 10px !important;
+	padding-top: 10px !important;
+}
+.nav-fix .navbar-brand {
+	padding-top: 20px !important;
+	margin-top: -50px !important;
+}
+.nav-fix .main-menu {
+	margin-top: -45px !important;
+}
+.nav-fix .main-menu .navbar-nav .nav-item .nav-link {
+	color: #150035;
+}
+.nav-fix form {
+	margin-top: 65px !important;
+}
+.nav-fix form .btn {
+	font-size: 16px !important;
+	padding: 10px 20px !important;
+}
+.nav-fix .navbar-toggler {
+	position: absolute;
+	top: 10px;
+	right: 14%;
+	color: #150035 !important;
+	padding: 10px 15px;
+	border-color: #150035 !important;
+	border-radius: 5px;
+	margin-top: 30px;
+}
+/* common css ends */
+
+/* =====================
+navbar area starts 
+====================== */
+.navbar {
+	z-index: 1;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.navbar .navbar-nav {
+	padding-top: 70px;
+	margin-left: 100px;
+}
+.navbar .navbar-nav .nav-item {
+	padding: 0 25px;
+}
+.navbar .navbar-nav .nav-item:last-of-type {
+	padding-right: 0;
+}
+.navbar .navbar-nav .nav-item .nav-link {
+	font-family: var(--pf);
+	font-size: 20px;
+	color: var(--tcl1);
+	text-transform: capitalize;
+	transition: all linear 0.4s;
+}
+.navbar .navbar-nav .nav-item .nav-link.active {
+	color: var(--hcl1);
+}
+.navbar .navbar-nav .nav-item:hover .nav-link {
+	color: var(--hcl1);
+}
+.navbar form {
+	margin-top: 68px;
+}
+.navbar .btn {
+	margin-right: 25px;
+	font-family: var(--hf);
+	font-size: 20px;
+	color: #fff;
+	text-transform: capitalize;
+	padding: 14px 25px;
+	border: none;
+	outline: none;
+	background: linear-gradient(to bottom, var(--gcl1) 0%, var(--gcl2) 100%);
+	box-shadow: 0px 6px 0px 0px rgba(58, 0, 144, 1);
+	text-shadow: 5px 5px 0px rgba(88, 19, 184, 0.8);
+	transition: all linear 0.4s;
+}
+.navbar .btn:hover {
+	background: linear-gradient(to bottom, var(--bgc2) 0%, var(--bgc1) 100%);
+	box-shadow: 0px 6px 0px 0px rgba(102, 19, 85, 1);
+	text-shadow: 5px 5px 0px rgba(166, 0, 132, 0.8);
+}
+.navbar .btn:first-of-type {
+	margin-left: 105px;
+}
+.navbar .btn:last-of-type {
+	margin-right: 0;
+}
+/* =====================
+navbar area ends 
+====================== */
+
+/* =====================
+banner area starts 
+======================== */
+#banner {
+	background: var(--cl1);
+	padding-top: 130px;
+	padding-bottom: 285px;
+	z-index: 0;
+	position: relative;
+}
+#banner .banner-image {
+	width: 100%;
+	position: relative;
+}
+#banner .banner-image img {
+	width: 100%;
+	position: absolute;
+	top: 25px;
+	left: -115px;
+}
+#banner .banner-details {
+	padding-top: 125px;
+	margin-left: 20px;
+}
+#banner .banner-details p {
+	font-family: var(--pf);
+	color: #fff;
+}
+#banner .banner-details p.first-pg {
+	text-transform: capitalize;
+	font-size: 20px;
+	font-weight: 400;
+}
+#banner .banner-details h1 {
+	font-family: var(--hf);
+	font-weight: 400;
+	font-size: 331px;
+	color: var(--htc1);
+	background: -webkit-linear-gradient(
+		top,
+		#fdb125 45%,
+		#e07e1e 48%,
+		#fcb100 85%
+	);
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	filter: drop-shadow(0 0 35px #4d0148);
+	margin-top: -45px;
+}
+#banner .banner-details p.second-pg {
+	text-align: center;
+	font-size: 16px;
+	font-weight: 400;
+	margin-top: -30px;
+	margin-right: 145px;
+	line-height: 26px;
+}
+#banner .banner-details .text-center a {
+	display: inline-block;
+	padding: 15px 30px;
+	background: linear-gradient(to bottom, var(--gcl1) 0%, var(--gcl2) 100%);
+	box-shadow: 0px 6px 0px 0px rgba(58, 0, 144, 1);
+	text-shadow: 5px 5px 0px rgba(88, 19, 184, 0.8);
+	font-family: var(--hf);
+	font-size: 20px;
+	font-weight: 400;
+	color: #fff;
+	text-transform: capitalize;
+	margin-top: 22px;
+	border-radius: 5px;
+	transition: all linear 0.4s;
+}
+#banner .banner-details .text-center a:hover {
+	background: linear-gradient(to bottom, var(--bgc2) 0%, var(--bgc1) 100%);
+	box-shadow: 0px 6px 0px 0px rgba(102, 19, 85, 1);
+	text-shadow: 5px 5px 0px rgba(166, 0, 132, 0.8);
+}
+/* =====================
+banner area ends 
+======================== */
+
+/* ======================
+game area starts
+========================= */
+#game-section {
+	background: var(--cl2);
+	position: relative;
+	padding-bottom: 100px;
+}
+#game-section .game-flow {
+	filter: drop-shadow(0px 6px 0px rgba(58, 0, 144, 1));
+}
+#game-section .game-flow .game-content {
+	width: 100%;
+	clip-path: polygon(0 5%, 100% 0%, 100% 100%, 0 96%);
+	position: absolute;
+	top: -130px;
+	left: 0;
+}
+#game-section .game-flow .game-content .game-item {
+	width: 100%;
+	background: linear-gradient(to right, var(--gcl1) 0%, var(--gcl2) 100%);
+	box-shadow: inset 10px 0px 50px 0px rgba(31, 7, 67, 0.5);
+	filter: drop-shadow(30px 10px 4px #4444dd);
+	text-align: center;
+	padding: 45px 15px;
+}
+#game-section .game-flow .game-content .game-item h3 {
+	color: #fcb100;
+	background: -webkit-linear-gradient(
+		top,
+		#fdb125 45%,
+		#e07e1e 48%,
+		#fcb100 85%
+	);
+	background-clip: border-box;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 50px;
+	font-weight: 400;
+	font-family: "Anton", sans-serif;
+	margin-bottom: 18px;
+	text-shadow: 0px 2px 0px rgba(252, 176, 0, 0.6);
+	filter: drop-shadow(0 0 35px #4d0148);
+}
+#game-section .game-flow .game-content .game-item h4 {
+	color: #ffffff;
+	font-size: 32px;
+	font-weight: 400;
+	font-family: "Anton", sans-serif;
+	margin-bottom: 10px;
+	text-shadow: 5px 5px 0px rgba(88, 19, 184, 0.8);
+	text-transform: capitalize;
+}
+#game-section .game-flow .game-content .game-item p {
+	font-family: var(--pf);
+	color: #fff;
+	font-weight: 400;
+	font-size: 16px;
+	margin-top: 15px;
+}
+#game-section .sub-heading {
+	padding-top: 200px;
+	padding-bottom: 55px;
+	color: #fff;
+}
+#game-section .game-img {
+	width: 100%;
+	position: relative;
+}
+#game-section .game-img img {
+	width: 100%;
+}
+#game-section .game-img .game-overlay {
+	width: 100%;
+	height: 100%;
+	background: rgba(21, 0, 53, 0.85);
+	position: absolute;
+	top: 0;
+	left: 0;
+	text-align: center;
+	opacity: 0;
+	transition: all linear 0.4s;
+}
+#game-section .game-img:hover .game-overlay {
+	opacity: 1;
+}
+#game-section .game-img .game-overlay h3 {
+	font-family: var(--hf);
+	font-size: 24px;
+	color: #fff;
+	font-weight: 400;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-transform: capitalize;
+}
+#game-section .game-img .game-overlay a {
+	font-family: var(--hf);
+	font-size: 20px;
+	color: #fff;
+	font-weight: 400;
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 14px 30px;
+	border-radius: 5px;
+	background: linear-gradient(to bottom, var(--gcl1) 0%, var(--gcl2) 100%);
+	box-shadow: 0px 6px 0px 0px rgba(58, 0, 144, 1);
+	text-shadow: 5px 5px 0px rgba(88, 19, 184, 0.8);
+	display: inline-block;
+	transition: all linear 0.4s;
+	text-transform: capitalize;
+}
+#game-section .game-img .game-overlay a:hover {
+	background: linear-gradient(to bottom, var(--bgc2) 0%, var(--bgc1) 100%);
+	box-shadow: 0px 6px 0px 0px rgba(102, 19, 85, 1);
+	text-shadow: 5px 5px 0px rgba(166, 0, 132, 0.8);
+}
+/* ======================
+game area ends
+========================= */
+
+/* ======================
+claim part starts
+========================= */
+#claim-area {
+	background: var(--cl1);
+	padding-top: 100px;
+	padding-bottom: 20px;
+}
+#claim-area .claim-details {
+	margin-top: 50px;
+}
+#claim-area .claim-details p {
+	font-family: var(--pf);
+	font-size: 16px;
+	font-weight: 400;
+	color: #fff;
+	line-height: 26px;
+	margin-right: 45px;
+}
+
+#claim-area .claim-details p:last-of-type {
+	margin-top: 35px;
+	margin-bottom: 40px;
+}
+#claim-area .claim-details a {
+	padding: 14px 30px;
+	border-radius: 5px;
+	background: linear-gradient(to bottom, var(--gcl1) 0%, var(--gcl2) 100%);
+	box-shadow: 0px 6px 0px 0px rgba(58, 0, 144, 1);
+	text-shadow: 5px 5px 0px rgba(88, 19, 184, 0.8);
+	font-family: var(--hf);
+	font-size: 20px;
+	color: #fff;
+	font-weight: 400;
+	text-transform: capitalize;
+	transition: all linear 0.4s;
+}
+#claim-area .claim-details a:hover {
+	background: linear-gradient(to bottom, var(--bgc2) 0%, var(--bgc1) 100%);
+	box-shadow: 0px 6px 0px 0px rgba(102, 19, 85, 1);
+	text-shadow: 5px 5px 0px rgba(166, 0, 132, 0.8);
+}
+/* ======================
+claim part ends
+========================= */
+
+/* ======================
+pricing area starts
+========================= */
+#pricing-area {
+	background: var(--cl2);
+	padding-top: 100px;
+	padding-bottom: 130px;
+}
+#pricing-area .pricing-table {
+	margin-top: 85px;
+}
+#pricing-area .pricing-table .pricing-item {
+	width: 100%;
+	text-align: center;
+	background: linear-gradient(to bottom, var(--gcl1) 0%, var(--gcl2) 100%);
+	position: relative;
+	transition: all linear 0.5s;
+	border-radius: 5px;
+}
+#pricing-area .pricing-table .pricing-item .price-head h5 {
+	width: 100%;
+	font-family: var(--pf);
+	font-size: 20px;
+	font-weight: 600;
+	color: #fff;
+	text-transform: capitalize;
+	background: linear-gradient(to bottom, #1e5799 0%, #fb36d7 0%, #aa0288 65%);
+	padding: 20px 0;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	box-shadow: 0px 6px 0px 0px rgba(102, 19, 85, 1);
+	text-shadow: 0px 3px 0px rgba(166, 0, 132, 0.8);
+	position: absolute;
+	top: -60px;
+	left: 0;
+	opacity: 0;
+	transition: all linear 0.5s;
+}
+
+#pricing-area .pricing-table .pricing-item:hover {
+	transform: translateY(30px);
+}
+
+#pricing-area .pricing-table .pricing-item:hover .price-head h5 {
+	top: -55px;
+	opacity: 1;
+}
+#pricing-area .pricing-table .pricing-item .price-top {
+	padding-top: 60px;
+	color: #fff;
+}
+#pricing-area .pricing-table .pricing-item .price-top h3 {
+	font-family: var(--hf);
+	font-size: 32px;
+	font-weight: 400;
+	text-transform: capitalize;
+	padding-bottom: 10px;
+}
+#pricing-area .pricing-table .pricing-item .price-top h4 {
+	font-family: var(--pf);
+	font-size: 50px;
+	font-weight: 700;
+}
+#pricing-area .pricing-table .pricing-item .price-top p {
+	font-family: var(--pf);
+	font-size: 14px;
+	font-weight: 400;
+	padding-bottom: 22px;
+	border-bottom: 1px solid #6428b4;
+	text-transform: capitalize;
+}
+#pricing-area .pricing-table .pricing-item .price-bottom {
+	color: #fff;
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+#pricing-area .pricing-table .pricing-item .price-bottom p {
+	font-family: var(--pf);
+	font-size: 16px;
+	font-weight: 600;
+	padding: 9px;
+}
+#pricing-area .pricing-table .pricing-item a {
+	font-family: var(--hf);
+	font-size: 24px;
+	font-weight: 400;
+	color: #fff;
+	text-transform: capitalize;
+	padding: 14px 30px;
+	background: linear-gradient(to bottom, var(--gcl1) 0%, var(--gcl2) 100%);
+	border-radius: 5px;
+	box-shadow: 0px 6px 0px 0px rgba(58, 0, 144, 1);
+	text-shadow: 5px 5px 0px rgba(88, 19, 184, 0.8);
+	display: inline-block;
+	position: absolute;
+	left: 50%;
+	bottom: -25px;
+	transform: translateX(-50%);
+	transition: all linear 0.5s;
+}
+#pricing-area .pricing-table .pricing-item:hover a {
+	background: linear-gradient(to bottom, var(--bgc2) 0%, var(--bgc1) 100%);
+	box-shadow: 0px 6px 0px 0px rgba(102, 19, 85, 1);
+	text-shadow: 5px 5px 0px rgba(166, 0, 132, 0.8);
+}
+/* ======================
+pricing area ends
+========================= */
+
+/* ======================
+tournament area starts
+========================= */
+#tournament-area {
+	background: var(--cl1);
+	padding-top: 100px;
+	padding-bottom: 145px;
+}
+#tournament-area .tournament-details .tournament-left-side .sub-heading {
+	position: relative;
+}
+#tournament-area .tournament-details .tournament-left-side .sub-heading::after {
+	content: "";
+	width: 100%;
+	height: 3px;
+	color: var(--htc1);
+	background: linear-gradient(to bottom, #000000 67%, #290a59 67%);
+	display: inline-block;
+	position: absolute;
+	left: 0;
+	bottom: -30px;
+}
+#tournament-area .tournament-details .tournament-left-side .effect {
+	position: absolute;
+	left: 0;
+	bottom: -38px;
+	animation: effect 10s infinite alternate;
+	z-index: 9;
+}
+
+@keyframes effect {
+	0% {
+		left: 1%;
+	}
+	100% {
+		left: 90%;
+	}
+}
+#tournament-area .tournament-details .tournament-left-side .accordion {
+	padding-top: 70px;
+}
+#tournament-area
+	.tournament-details
+	.tournament-left-side
+	.accordion
+	.accordion-item {
+	background: none;
+	border-radius: 0;
+	border: 0;
+}
+.add-border {
+	border: 1px solid var(--htc1) !important;
+}
+#tournament-area
+	.tournament-details
+	.tournament-left-side
+	.accordion
+	.accordion-item
+	.accordion-button {
+	background: transparent;
+	color: #fff;
+	font-family: var(--pf);
+	font-size: 20px;
+	font-weight: 400;
+	border-radius: 0 !important;
+	padding: 25px 0 30px 25px;
+	appearance: none;
+	position: relative;
+}
+#tournament-area
+	.tournament-details
+	.tournament-left-side
+	.accordion
+	.accordion-item
+	.accordion-button
+	i {
+	position: absolute;
+	top: 25px;
+	right: 40px;
+	font-size: 25px;
+}
+#tournament-area
+	.tournament-details
+	.tournament-left-side
+	.accordion
+	.accordion-item
+	.accordion-button::after {
+	width: 0 !important;
+}
+#tournament-area
+	.tournament-details
+	.tournament-left-side
+	.accordion
+	.accordion-item
+	.accordion-button:focus {
+	border: 0;
+	box-shadow: none;
+}
+#tournament-area
+	.tournament-details
+	.tournament-left-side
+	.accordion
+	.accordion-item
+	.accordion-body {
+	background: transparent;
+	color: #fff;
+	font-family: var(--pf);
+	font-size: 16px;
+	font-weight: 400;
+	padding: 0px 100px 30px 25px;
+}
+
+#tournament-area .tournament-details .tournament-right-side .sub-heading {
+	position: relative;
+}
+#tournament-area
+	.tournament-details
+	.tournament-right-side
+	.sub-heading::after {
+	content: "";
+	width: 100%;
+	height: 3px;
+	color: var(--htc1);
+	background: linear-gradient(to bottom, #000000 67%, #290a59 67%);
+	display: inline-block;
+	position: absolute;
+	left: 0;
+	bottom: -30px;
+}
+#tournament-area .tournament-details .tournament-right-side .effect {
+	position: absolute;
+	left: 0;
+	bottom: -38px;
+	animation: effect 10s infinite alternate;
+	z-index: 9;
+}
+
+@keyframes effect {
+	0% {
+		left: -1%;
+	}
+	100% {
+		right: 90%;
+	}
+}
+#tournament-area .tournament-details .tournament-right-side .countdown-section {
+	padding-top: 60px;
+}
+#tournament-area
+	.tournament-details
+	.tournament-right-side
+	.countdown-section
+	h4 {
+	font-family: var(--pf);
+	font-weight: 600;
+	font-size: 20px;
+	color: #fff;
+	margin-right: 42px;
+	margin-top: 35px;
+}
+#tournament-area
+	.tournament-details
+	.tournament-right-side
+	.countdown-section
+	.countdown {
+	border: 1px solid var(--htc1);
+	margin-right: 25px;
+	text-transform: capitalize;
+	padding: 14px;
+	border-radius: 5px;
+}
+#tournament-area
+	.tournament-details
+	.tournament-right-side
+	.countdown-section
+	.countdown:first-of-type {
+	padding: 14px 7px;
+}
+#tournament-area
+	.tournament-details
+	.tournament-right-side
+	.countdown-section
+	.countdown
+	span {
+	font-family: var(--pf);
+	font-weight: 600;
+	font-size: 20px;
+	color: var(--htc1);
+}
+#tournament-area
+	.tournament-details
+	.tournament-right-side
+	.countdown-section
+	.countdown
+	p {
+	font-family: var(--pf);
+	font-weight: 600;
+	font-size: 20px;
+	color: var(--htc1);
+}
+#tournament-area
+	.tournament-details
+	.tournament-right-side
+	.countdown-section
+	.countdown:last-of-type {
+	margin-right: 0;
+}
+#tournament-area .tournament-details .tournament-right-side .scroll-area {
+	margin-top: 30px;
+	width: 100%;
+	height: 300px;
+}
+#tournament-area
+	.tournament-details
+	.tournament-right-side
+	.scroll-area
+	.scroll-item {
+	border-bottom: 3px solid #000;
+	line-height: 60px;
+	width: 90%;
+}
+#tournament-area
+	.tournament-details
+	.tournament-right-side
+	.scroll-area
+	.scroll-item
+	p {
+	font-family: var(--pf);
+	font-weight: 400;
+	font-size: 16px;
+	color: #fff;
+	text-transform: capitalize;
+}
+/* ======================
+tournament area ends
+========================= */
+
+/* ======================
+payment area starts
+========================= */
+#payment {
+	background: linear-gradient(to bottom, var(--gcl1) 0%, var(--gcl2) 100%);
+	padding: 30px 0;
+	box-shadow: 0px 6px 0px 0px rgba(58, 0, 144, 1);
+	border-bottom: 6px solid #3a0090;
+}
+#payment .input-area h3 {
+	font-family: var(--hf);
+	font-weight: 400;
+	font-size: 32px;
+	color: #fff;
+	text-shadow: 4px 4px 0px #5813b8;
+	padding-bottom: 15px;
+	text-transform: capitalize;
+}
+#payment .input-area .pay-form {
+	position: relative;
+}
+#payment .input-area input {
+	width: 100%;
+	height: 40px;
+	background: transparent;
+	border: 1px solid var(--cl1);
+	outline: none;
+	padding-left: 15px;
+	padding-right: 50px;
+}
+#payment .input-area input::placeholder {
+	font-family: var(--pf);
+	font-weight: 400;
+	font-size: 14px;
+	color: #3a0090;
+}
+#payment .input-area .pay-form .pay-btn {
+	width: 48px;
+	height: 40px;
+	background: transparent;
+	border: none;
+	position: absolute;
+	top: 0;
+	right: 0;
+	border-left: 1px solid var(--cl1);
+}
+#payment .input-area .pay-form .pay-btn i {
+	color: #3a0090;
+}
+#payment .card-area h3 {
+	font-family: var(--hf);
+	font-weight: 400;
+	font-size: 32px;
+	color: #fff;
+	text-shadow: 4px 4px 0px #5813b8;
+	padding-bottom: 15px;
+	text-transform: capitalize;
+}
+#payment .card-area a {
+	margin-right: 10px;
+}
+/* ======================
+payment area ends
+========================= */
+
+/* ======================
+footer area starts
+========================= */
+#footer-area {
+	background: var(--cl2);
+	padding-top: 55px;
+	padding-bottom: 34px;
+	box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 1);
+}
+#footer-area .footer-about h3 {
+	font-family: var(--hf);
+	font-weight: 400;
+	font-size: 32px;
+	color: #fff;
+	text-transform: capitalize;
+	padding-bottom: 25px;
+}
+#footer-area .footer-about p {
+	font-family: var(--pf);
+	font-weight: 200;
+	font-size: 16px;
+	color: #fff;
+	text-transform: capitalize;
+	padding-bottom: 40px;
+}
+#footer-area .footer-about i {
+	font-size: 20px;
+	color: #fff;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	background: linear-gradient(to bottom, var(--gcl1) 0%, var(--gcl2) 100%);
+	box-shadow: 0px 3px 0px 0px rgba(58, 0, 144, 1);
+	margin-right: 10px;
+	transition: all linear 0.5s;
+}
+#footer-area .footer-about i:hover {
+	background: linear-gradient(to bottom, var(--bgc2) 0%, var(--bgc1) 100%);
+	box-shadow: 0px 3px 0px 0px rgba(102, 19, 85, 1);
+}
+#footer-area .footer-info h3 {
+	font-family: var(--hf);
+	font-weight: 400;
+	font-size: 32px;
+	color: #fff;
+	text-transform: capitalize;
+	padding-bottom: 21px;
+}
+
+#footer-area .footer-info .info-details ul {
+	padding-left: 0;
+}
+#footer-area .footer-info .info-details ul li a {
+	font-family: var(--pf);
+	font-weight: 600;
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #fff;
+	display: inline-block;
+	padding-bottom: 15px;
+	transition: all linear 0.5s;
+}
+#footer-area .footer-info .info-details ul li a:hover {
+	color: var(--hcl1);
+}
+#footer-area .footer-security h3 {
+	font-family: var(--hf);
+	font-weight: 400;
+	font-size: 32px;
+	color: #fff;
+	text-transform: capitalize;
+	padding-bottom: 25px;
+}
+#footer-area .footer-security .security-details {
+	padding-bottom: 30px;
+}
+#footer-area .footer-security .security-details .secu-text p {
+	font-family: var(--pf);
+	font-weight: 600;
+	font-size: 16px;
+	color: #fff;
+	text-transform: capitalize;
+	padding-left: 30px;
+	padding-right: 150px;
+}
+/* ======================
+footer area ends
+========================= */
+
+/* ======================
+footer-bottom area starts
+========================= */
+#footer-bottom {
+	padding: 20px 0;
+	background: var(--cl2);
+	position: relative;
+}
+#footer-bottom::after {
+	content: "";
+	width: 100%;
+	height: 3px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	color: var(--htc1);
+	background: linear-gradient(to bottom, #000000 67%, #290a59 67%);
+}
+#footer-bottom .effect {
+	position: absolute;
+	left: 0;
+	top: -12px;
+	animation: effect 10s infinite alternate;
+	z-index: 9;
+}
+
+@keyframes effect {
+	0% {
+		left: 1%;
+	}
+	100% {
+		left: 90%;
+	}
+}
+#footer-bottom p {
+	font-family: var(--pf);
+	font-weight: 600;
+	font-size: 16px;
+	color: #fff;
+}
+/* ======================
+footer-bottom area ends
+========================= */
+/* ======================
+ back to top button start 
+ ======================== */
+.back-to-top {
+	width: 40px;
+	height: 40px;
+	background: var(--hcl1);
+	font-size: 16px;
+	text-align: center;
+	line-height: 40px;
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	color: var(--cc1);
+	z-index: 9999;
+	text-transform: capitalize;
+	transition: all linear 0.4s;
+	display: none;
+}
+.back-to-top:hover {
+	background: #353535;
+}
+/* =======================
+ back to top button ends 
+ ========================= */

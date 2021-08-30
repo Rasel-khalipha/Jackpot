@@ -1,0 +1,705 @@
+/* =======================
+ for extra small divice 
+ ======================== */
+@media (max-width: 576px) {
+	/* navbar part starts */
+	.navbar {
+		width: 100%;
+	}
+	.navbar .navbar-toggler {
+		position: absolute;
+		top: 80px;
+		right: 10px;
+	}
+	.navbar-light .navbar-toggler {
+		border-color: #fcb100 !important;
+		color: #fcb100 !important;
+	}
+	.navbar .navbar-nav {
+		padding-top: 0 !important;
+	}
+	.navbar .main-menu {
+		background: #000;
+		padding-bottom: 20px;
+		text-align: center;
+		border-top: 1px solid #fcb100;
+	}
+	.nav-fix .main-menu {
+		position: absolute;
+		width: 60%;
+		top: 145px !important;
+	}
+	.navbar .navbar-nav .nav-item {
+		padding: 0 !important;
+	}
+	.nav-fix .main-menu .navbar-nav .nav-item .nav-link {
+		color: #fff !important;
+	}
+	.nav-fix .main-menu .navbar-nav .nav-item .nav-link.active {
+		color: #fb36d8 !important;
+	}
+	.nav-fix .main-menu .navbar-nav .nav-item:hover .nav-link {
+		color: #fb36d8 !important;
+	}
+	.navbar .btn:first-of-type {
+		margin-left: 0 !important;
+	}
+	.navbar form {
+		margin-top: 10px !important;
+	}
+	/* navbar part ends */
+
+	/* banner part starts */
+	#banner .banner-image {
+		width: 0;
+	}
+	#banner .banner-image img {
+		width: 0 !important;
+	}
+	#banner .banner-details {
+		width: 100%;
+		padding-top: 30px !important;
+		margin-left: 0 !important;
+	}
+	#banner .banner-details h1 {
+		text-align: center;
+		font-size: 300px !important;
+		margin-top: 0px !important;
+	}
+	#banner .banner-details p {
+		text-align: center;
+		margin-right: 0 !important;
+	}
+	/* banner part ends */
+
+	/* claim area starts */
+	#claim-area .claim-details {
+		text-align: center;
+	}
+	#claim-area .claim-details p {
+		text-align: center;
+		margin-right: 0 !important;
+	}
+	/* claim area ends */
+
+	/* pricing area starts */
+	#pricing-area .pricing-table .pricing-item {
+		margin-bottom: 150px !important;
+	}
+	#pricing-area .pricing-table .pricing-item:last-of-type {
+		margin-bottom: 0 !important;
+	}
+	/* pricing area ends */
+
+	/* tournament area starts */
+	#tournament-area
+		.tournament-details
+		.tournament-left-side
+		.accordion
+		.accordion-item
+		.accordion-button {
+		font-size: 18px !important;
+	}
+	#tournament-area
+		.tournament-details
+		.tournament-left-side
+		.accordion
+		.accordion-item
+		.accordion-body {
+		padding-right: 60px !important;
+	}
+	/* tournament area ends */
+
+	/* footer area starts */
+	#footer-area .info-details ul {
+		margin-bottom: 0 !important;
+	}
+	/* footer area ends */
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+	/* navbar part starts */
+	.navbar {
+		width: 100%;
+	}
+	.navbar .navbar-toggler {
+		position: absolute;
+		top: 45px;
+		right: 14%;
+		color: #fcb100 !important;
+		padding: 10px 15px;
+		border-color: #fcb100;
+		border-radius: 5px;
+		margin-top: 30px;
+	}
+	.navbar-toggler:not(:disabled):not(.disabled) {
+		outline: 0;
+	}
+	button:focus:not(:focus-visible) {
+		outline: 0 !important;
+	}
+	.navbar-light .navbar-toggler {
+		border-color: #fcb100 !important;
+		color: #fcb100 !important;
+	}
+	.navbar .navbar-nav {
+		padding-top: 0 !important;
+	}
+	.nav-fix .navbar-nav {
+		margin-top: -50px !important;
+		padding-top: 70px !important;
+	}
+	.navbar .main-menu {
+		background: #000;
+		padding-bottom: 20px;
+		text-align: center;
+		border-top: 1px solid #fcb100;
+	}
+	.nav-fix .main-menu {
+		position: absolute;
+		width: 60%;
+		top: 145px !important;
+	}
+	.navbar .navbar-nav .nav-item {
+		padding: 0 !important;
+	}
+	.nav-fix .main-menu .navbar-nav .nav-item .nav-link {
+		color: #fff !important;
+	}
+	.nav-fix .main-menu .navbar-nav .nav-item .nav-link.active {
+		color: #fb36d8 !important;
+	}
+	.nav-fix .main-menu .navbar-nav .nav-item:hover .nav-link {
+		color: #fb36d8 !important;
+	}
+	.navbar .btn:first-of-type {
+		margin-left: 0 !important;
+	}
+	.navbar form {
+		margin-top: 10px !important;
+	}
+	/* navbar part ends */
+
+	/* banner part starts */
+	#banner .banner-image {
+		width: 0;
+	}
+	#banner .banner-image img {
+		width: 0 !important;
+	}
+	#banner .banner-details {
+		width: 100%;
+		padding-top: 30px !important;
+		margin-left: 0 !important;
+	}
+	#banner .banner-details p {
+		text-align: center;
+		margin-right: 0 !important;
+	}
+	/* banner part ends */
+
+	/* game section starts */
+	.game-img {
+		margin-top: 25px;
+	}
+	.game-img .game-overlay a {
+		padding: 10px 20px !important;
+		font-size: 16px !important;
+	}
+	/* game section ends */
+
+	/* claim area starts */
+	#claim-area .sub-heading h3 {
+		font-size: 28px;
+	}
+	#claim-area .claim-details {
+		margin-top: 20px !important;
+		text-align: center;
+	}
+	#claim-area .claim-details p {
+		margin-right: 0 !important;
+		font-size: 12px !important;
+		padding-top: 5px !important;
+		text-align: center;
+		line-height: 18px !important;
+	}
+	#claim-area .claim-details p:last-of-type {
+		margin-top: 0 !important;
+		margin-bottom: 30px !important;
+	}
+	#claim-area .claim-details a {
+		font-size: 16px !important;
+		padding: 10px 20px !important;
+	}
+	/* claim area ends */
+
+	/* pricing area starts */
+	#pricing-area {
+		padding-bottom: 0 !important;
+	}
+	#pricing-area h3 {
+		font-size: 28px !important;
+	}
+
+	#pricing-area .pricing-table .pricing-item {
+		margin-bottom: 80px;
+	}
+	#pricing-area .pricing-table .pricing-item .price-head h5 {
+		font-size: 16px !important;
+		padding: 15px 0;
+		top: -50px;
+	}
+	#pricing-area .pricing-table .pricing-item .price-top {
+		padding-top: 20px !important;
+	}
+	#pricing-area .pricing-table .pricing-item .price-top h3 {
+		font-size: 22px !important;
+		padding-bottom: 0 !important;
+	}
+	#pricing-area .pricing-table .pricing-item .price-top h4 {
+		font-size: 35px !important;
+	}
+	#pricing-area .pricing-table .pricing-item .price-top p {
+		padding-bottom: 10px !important;
+	}
+	#pricing-area .pricing-table .pricing-item .price-bottom {
+		padding-bottom: 25px !important;
+	}
+	#pricing-area .pricing-table .pricing-item .price-bottom p {
+		padding: 7px !important;
+	}
+	#pricing-area .pricing-table .pricing-item a {
+		font-size: 13px !important;
+		padding: 10px 20px !important;
+		bottom: -15px !important;
+	}
+	/* pricing area ends */
+
+	/* tournament area starts */
+	#tournament-area .sub-heading h3 {
+		font-size: 28px;
+	}
+	#tournament-area
+		.tournament-details
+		.tournament-left-side
+		.accordion
+		.accordion-item
+		.accordion-button {
+		font-size: 16px !important;
+	}
+	#tournament-area
+		.tournament-details
+		.tournament-left-side
+		.accordion
+		.accordion-item
+		.accordion-body {
+		padding-right: 50px !important;
+	}
+	/* tournament area ends */
+
+	/* payment area starts */
+	#payment .input-area h3 {
+		font-size: 28px !important;
+	}
+	#payment .card-area h3 {
+		font-size: 28px !important;
+	}
+	/* payment area ends */
+
+	/* footer-area starts */
+
+	#footer-area .footer-security h3 {
+		font-size: 28px !important;
+		padding-top: 30px !important;
+		padding-bottom: 5px !important;
+	}
+	#footer-area .footer-security .security-details .secu-text p {
+		padding-right: 0 !important;
+	}
+	#footer-area .footer-info h3 {
+		font-size: 28px !important;
+		padding-top: 30px !important;
+		padding-bottom: 5px !important;
+	}
+	#footer-area .footer-info .info-details ul {
+		margin-bottom: 0 !important;
+	}
+	#footer-area .footer-info .info-details ul li a {
+		padding-bottom: 0 !important;
+	}
+	#footer-area .footer-about h3 {
+		font-size: 28px !important;
+		padding-bottom: 7px !important;
+	}
+	#footer-area .footer-about p {
+		padding-bottom: 25px !important;
+	}
+	/* footer-area ends */
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+	/* navbar area starts */
+	.navbar {
+		width: 100%;
+	}
+	.navbar .navbar-toggler {
+		position: absolute;
+		top: 45px;
+		right: 14%;
+		color: #fcb100 !important;
+		padding: 10px 15px;
+		border-color: #fcb100;
+		border-radius: 5px;
+		margin-top: 30px;
+	}
+	.navbar-toggler:not(:disabled):not(.disabled) {
+		outline: 0;
+	}
+	button:focus:not(:focus-visible) {
+		outline: 0 !important;
+	}
+	.navbar-light .navbar-toggler {
+		border-color: #fcb100 !important;
+		color: #fcb100 !important;
+	}
+	.navbar .navbar-nav {
+		padding-top: 0 !important;
+	}
+	.nav-fix .navbar-nav {
+		margin-top: -50px !important;
+		padding-top: 70px !important;
+	}
+	.navbar .main-menu {
+		background: #000;
+		padding-bottom: 20px;
+		text-align: center;
+		border-top: 1px solid #fcb100;
+	}
+	.nav-fix .main-menu {
+		position: absolute;
+		width: 60%;
+		top: 145px !important;
+	}
+	.navbar .navbar-nav .nav-item {
+		padding: 0 !important;
+	}
+	.nav-fix .main-menu .navbar-nav .nav-item .nav-link {
+		color: #fff !important;
+	}
+	.nav-fix .main-menu .navbar-nav .nav-item .nav-link.active {
+		color: #fb36d8 !important;
+	}
+	.nav-fix .main-menu .navbar-nav .nav-item:hover .nav-link {
+		color: #fb36d8 !important;
+	}
+	.navbar .btn:first-of-type {
+		margin-left: 0 !important;
+	}
+	.navbar form {
+		margin-top: 10px !important;
+	}
+	/* navbar area ends */
+
+	/* banner area starts */
+
+	#banner .banner-image img {
+		width: 100%;
+		position: absolute;
+		top: 50px !important;
+		left: -30px !important;
+	}
+	#banner .banner-details {
+		padding-top: 50px !important;
+	}
+	#banner .banner-details h1 {
+		font-size: 200px !important;
+		margin-top: 0px !important;
+	}
+	#banner .banner-details .second-pg {
+		margin-right: 0 !important;
+		margin-top: 0px !important;
+	}
+	/* banner area ends */
+
+	/* game area starts */
+	#game-section {
+		padding-bottom: 50px !important;
+	}
+	#game-section .sub-heading h3 {
+		font-size: 35px;
+	}
+	#game-section .game-img .game-overlay h3 {
+		font-size: 20px !important;
+	}
+	#game-section .game-img .game-overlay a {
+		font-size: 15px !important;
+		padding: 10px 20px !important;
+	}
+	/* game area ends */
+
+	/* claim area starts */
+	#claim-area {
+		padding-bottom: 100px !important;
+	}
+	#claim-area .sub-heading h3 {
+		font-size: 35px;
+	}
+	#claim-area .claim-details {
+		text-align: center;
+	}
+	#claim-area .claim-details p {
+		margin-right: 0 !important;
+	}
+	#claim-area .claim-details a {
+		font-size: 15px !important;
+		padding: 10px 20px !important;
+	}
+	/* claim area ends */
+
+	/* pricing area starts */
+	#pricing-area .sub-heading h3 {
+		font-size: 35px !important;
+	}
+	#pricing-area .pricing-table .pricing-item .price-head h5 {
+		font-size: 18px !important;
+		padding: 10px 0 !important;
+		top: -43px !important;
+	}
+	#pricing-area .pricing-table .pricing-item .price-top {
+		padding-top: 20px !important;
+	}
+	#pricing-area .pricing-table .pricing-item .price-top h3 {
+		font-size: 25px !important;
+		padding-top: 15px !important;
+		padding-bottom: 0 !important;
+	}
+	#pricing-area .pricing-table .pricing-item .price-top h4 {
+		font-size: 40px !important;
+	}
+	#pricing-area .pricing-table .pricing-item .price-top p {
+		padding-bottom: 15px !important;
+	}
+	#pricing-area .pricing-table .pricing-item .price-bottom {
+		padding-top: 20px !important;
+	}
+	#pricing-area .pricing-table .pricing-item .price-bottom p {
+		padding: 8px !important;
+		font-size: 14px !important;
+	}
+	#pricing-area .pricing-table .pricing-item a {
+		padding: 10px 20px !important;
+		font-size: 13px !important;
+		bottom: -18px;
+	}
+	/* pricing area ends */
+
+	/* tournament area starts */
+	#tournament-area .tournament-left-side .sub-heading h3 {
+		font-size: 35px;
+	}
+	#tournament-area .tournament-right-side .sub-heading h3 {
+		font-size: 35px;
+	}
+	/* tournament area ends */
+
+	/* payment area starts */
+	#payment .input-area h3 {
+		font-size: 28px !important;
+	}
+	#payment .card-area h3 {
+		font-size: 28px !important;
+	}
+	#payment .card-area a {
+		margin-right: 0 !important;
+	}
+	/* payment area ends */
+
+	/* footer area starts */
+	#footer-area .footer-about h3 {
+		font-size: 28px !important;
+		padding-bottom: 10px !important;
+	}
+	#footer-area .footer-about p {
+		font-size: 14px !important;
+		padding-bottom: 20px !important;
+	}
+	#footer-area .footer-security .security-details .secu-text p {
+		padding-right: 110px !important;
+	}
+	/* footer area ends */
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+	/* navbar area starts */
+	.navbar .navbar-brand img {
+		height: 98px;
+		width: 180px;
+	}
+	.nav-fix .navbar-brand {
+		padding-top: 30px !important;
+		margin-top: -50px !important;
+	}
+	.navbar .main-menu .navbar-nav {
+		padding-top: 50px !important;
+	}
+	.nav-fix .main-menu .navbar-nav {
+		padding-top: 60px !important;
+	}
+	.navbar .main-menu .navbar-nav .nav-item {
+		padding: 0 !important;
+		padding-left: 20px !important;
+	}
+	.navbar .main-menu .navbar-nav .nav-item .nav-link {
+		padding: 10px 8px !important;
+		font-size: 17px !important;
+	}
+	.navbar .main-menu .btn {
+		padding: 10px 20px !important;
+	}
+	.navbar .main-menu .btn:first-of-type {
+		margin-left: 15px !important;
+	}
+	.navbar form {
+		margin-top: 60px !important;
+	}
+	/* navbar area ends */
+
+	/* banner area starts */
+	#banner .banner-image img {
+		width: 100%;
+		position: absolute;
+		top: 50px !important;
+		left: -30px !important;
+	}
+	#banner .banner-details {
+		padding-top: 50px !important;
+	}
+	#banner .banner-details h1 {
+		font-size: 300px !important;
+		margin-top: -30px !important;
+	}
+	#banner .banner-details .second-pg {
+		margin-right: 0 !important;
+	}
+	/* banner area ends */
+
+	/* game area starts */
+
+	#game-section .game-flow .game-content .game-item p {
+		font-size: 15px !important;
+	}
+	/* game area ends */
+
+	/* claim area starts */
+	#claim-area .claim-details {
+		margin: 20px !important;
+	}
+	#claim-area .claim-details p {
+		margin-right: 0 !important;
+	}
+	/* claim area ends */
+
+	/* pricing area starts */
+
+	#pricing-area .pricing-table .pricing-item a {
+		font-size: 18px !important;
+	}
+	/* pricing area ends */
+
+	/* tournament area starts */
+
+	#tournament-area .tournament-details .tournament-left-side .sub-heading h3 {
+		font-size: 40px;
+	}
+	#tournament-area .tournament-details .tournament-left-side .accordion-button {
+		font-size: 15px !important;
+	}
+	#tournament-area .tournament-details .tournament-left-side .accordion-body {
+		padding-right: 5px !important;
+	}
+	#tournament-area .tournament-details .tournament-right-side .sub-heading h3 {
+		font-size: 40px;
+	}
+	/* tournament area ends */
+}
+@media (min-width: 1200px) and (max-width: 1400px) {
+	/* navbar area starts */
+	.navbar .navbar-brand img {
+		height: 98px;
+		width: 180px;
+	}
+	.navbar .main-menu .navbar-nav {
+		padding-top: 50px !important;
+	}
+	.navbar .main-menu .navbar-nav .nav-item {
+		padding: 0 !important;
+		padding-left: 20px !important;
+	}
+	.navbar .main-menu .navbar-nav .nav-item .nav-link {
+		padding: 10px 8px !important;
+		font-size: 17px !important;
+	}
+	.navbar .main-menu .btn {
+		padding: 14px 19px !important;
+	}
+	.navbar .main-menu .btn:first-of-type {
+		margin-left: 15px !important;
+	}
+	.navbar form {
+		margin-top: 50px !important;
+	}
+	/* navbar area ends */
+
+	/* banner area starts */
+	#banner .banner-image img {
+		width: 100%;
+		position: absolute;
+		top: 50px !important;
+		left: -30px !important;
+	}
+	#banner .banner-details {
+		padding-top: 50px !important;
+	}
+	#banner .banner-details h1 {
+		font-size: 300px !important;
+		margin-top: -30px !important;
+	}
+	#banner .banner-details .second-pg {
+		margin-right: 0 !important;
+	}
+	/* banner area ends */
+
+	/* tournament area starts */
+	#tournament-area .tournament-details .tournament-left-side .sub-heading h3 {
+		font-size: 40px;
+	}
+
+	#tournament-area .tournament-details .tournament-left-side .accordion-button {
+		font-size: 15px !important;
+	}
+	#tournament-area .tournament-details .tournament-left-side .accordion-body {
+		padding-right: 5px !important;
+	}
+	#tournament-area .tournament-details .tournament-right-side .sub-heading h3 {
+		font-size: 40px;
+	}
+	/* tournament area ends */
+}
+
+@media (min-width: 1400px) {
+	/* banner area starts */
+	#banner .banner-details .text-center a {
+		margin-right: 100px;
+	}
+	/* banner area ends */
+
+	/* claim area starts */
+
+	#claim-area .claim-details {
+		margin-top: 80px !important;
+	}
+	#claim-area .claim-details p:last-of-type {
+		margin-top: 50px !important;
+		margin-bottom: 40px !important;
+	}
+	/* claim area ends */
+}
