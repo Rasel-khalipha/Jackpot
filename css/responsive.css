@@ -8,6 +8,11 @@
 	}
 	.navbar .navbar-toggler {
 		position: absolute !important;
+		top: 80px !important;
+		right: 10px !important;
+	}
+	.nav-fix .navbar-toggler {
+		position: absolute !important;
 		top: 0 !important;
 		right: 10px !important;
 	}
@@ -266,8 +271,19 @@
 	}
 	.navbar .navbar-toggler {
 		position: absolute !important;
+		top: 80px !important;
+		right: 10px !important;
+	}
+	.navbar-light .navbar-toggler {
+		border-color: #fcb100 !important;
+		color: #fcb100 !important;
+	}
+	.nav-fix .navbar-toggler {
+		position: absolute !important;
 		top: 0 !important;
-		right: 14% !important;
+		right: 10px !important;
+		border-color: #fcb100 !important;
+		color: #fcb100 !important;
 	}
 	.navbar-toggler:not(:disabled):not(.disabled) {
 		outline: 0;
@@ -286,7 +302,7 @@
 	}
 	.nav-fix .main-menu {
 		position: absolute;
-		width: 7 !important0%;
+		width: 80% !important;
 		top: 145px !important;
 	}
 	.navbar .navbar-nav .nav-item {
@@ -500,8 +516,19 @@
 	}
 	.navbar .navbar-toggler {
 		position: absolute !important;
+		top: 55px !important;
+		right: 10px !important;
+	}
+	.navbar-light .navbar-toggler {
+		border-color: #fcb100 !important;
+		color: #fcb100 !important;
+	}
+	.nav-fix .navbar-toggler {
+		position: absolute !important;
 		top: 0 !important;
-		right: 14% !important;
+		right: 10px !important;
+		border-color: #fcb100 !important;
+		color: #fcb100 !important;
 	}
 	.navbar-toggler:not(:disabled):not(.disabled) {
 		outline: 0;
