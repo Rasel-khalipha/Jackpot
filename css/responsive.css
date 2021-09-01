@@ -6,9 +6,12 @@
 	.navbar {
 		width: 100%;
 	}
+	.navbar .navbar-brand img {
+		width: 150px !important;
+	}
 	.navbar .navbar-toggler {
 		position: absolute !important;
-		top: 80px !important;
+		top: 48px !important;
 		right: 10px !important;
 	}
 	.nav-fix .navbar-toggler {
@@ -128,9 +131,11 @@
 	/* claim area starts */
 	#claim-area .sub-heading h3 {
 		font-size: 25px !important;
+		text-align: center !important;
 	}
 	#claim-area .claim-details {
 		text-align: center;
+		margin-top: 20px !important;
 	}
 	#claim-area .claim-details p {
 		text-align: center;
@@ -269,9 +274,12 @@
 	.navbar {
 		width: 100%;
 	}
+	.navbar .navbar-brand img {
+		width: 150px !important;
+	}
 	.navbar .navbar-toggler {
 		position: absolute !important;
-		top: 80px !important;
+		top: 48px !important;
 		right: 10px !important;
 	}
 	.navbar-light .navbar-toggler {
@@ -379,6 +387,7 @@
 	/* claim area starts */
 	#claim-area .sub-heading h3 {
 		font-size: 28px;
+		text-align: center !important;
 	}
 	#claim-area .claim-details {
 		margin-top: 20px !important;
