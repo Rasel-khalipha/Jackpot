@@ -223,6 +223,14 @@
 		padding-bottom: 10px !important;
 		padding-top: 5px !important;
 	}
+	#tournament-area
+		.tournament-details
+		.tournament-right-side
+		.scroll-area
+		.scroll-item
+		p {
+		font-size: 13px !important;
+	}
 	/* tournament area ends */
 
 	/* payment area starts */
